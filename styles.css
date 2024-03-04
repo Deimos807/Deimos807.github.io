@@ -13,7 +13,42 @@ li
 {
     text-align: center;
 }
-
+header
+{
+    background-color: gainsboro;
+    color: slategrey;
+    padding: 20px;
+    text-align: center;
+}
+nav
+{
+background-color: grey;
+padding: 10px;
+text-align: center;
+}
+nav ul
+{
+list-style-type:  none;
+padding: 0;
+margin: 0;
+}
+nav ul li 
+{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a 
+{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+nav ul li a:hover
+{
+    background-color: firebrick;
+}
 section
 {
     display: none;
