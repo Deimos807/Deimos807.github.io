@@ -2,3 +2,24 @@ h1, h2
 {
     text-align: center;
 }
+p
+{
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+li
+{
+    text-align: center;
+}
+
+section
+{
+    display: mome;
+    padding: 20px;
+}
+section.active
+{
+    display: block;
+}
