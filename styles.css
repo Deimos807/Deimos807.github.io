@@ -8,11 +8,16 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 }
-.image-container .image-container
+.image-container .image
 {
     margin: 10px;
     height:200px;
     width:auto;
+}
+body,header,nav
+{
+    margin: 0;
+    padding:0;
 }
 p
 {
