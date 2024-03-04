@@ -6,15 +6,15 @@
     <link rel="stylesheet" href="styles.csss">
 </head>
 <body>
-    <section id="Summary" class="active">
+    <section id="summary" class="active">
     <h1>Summerizing Statement</h1>
     <p></p>
     </section>
-    <section id="Education">
+    <section id="education">
     <h2>Education</h2>
     <p>Software Support diploma @ mohawk college</p>
     </section>
-    <section id="Skills">
+    <section id="skills">
     <h2>Skills</h2>
     <p>Fluent in</p>
     <ul>
@@ -26,28 +26,17 @@
         <li>Git/Github</li>
     </ul>
     </section>
-    <section id="Projects">
+    <section id="projects">
     <h2>Projects</h2>
     <ul>
         <li>Casino wheel spinner in java</li>
     </ul>
     </section>
-    <section id="Resume">
+    <section id="resume">
     <h2>Resume</h2>
 <h2>Contact</h2>
 <p>gavinlisi123@gmail.com</p>
 </section>
-<script>
-    function dispalySection(sectionID){
-        const sections = document.querySelectorAll('section');
-        sections.forEach(section => {
-            if (section.id === sectionID){
-                section.classList.add('active');
-            } else{
-                section.classList.remove('active');
-            }
-        });
-    }
-</script>
+<script src="script.js"></script>
 </body>
 </html>
