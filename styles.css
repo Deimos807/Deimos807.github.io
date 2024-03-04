@@ -2,20 +2,17 @@ h1, h2 ,h3
 {
     text-align: center;
 }
-body section
+.image-container
 {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 }
-.image
+.image-container .image-container
 {
-    margin:10px;
-    flex: 0 0 200px;
-    width: auto;
+    margin: 10px;
     height:200px;
+    width:auto;
 }
 p
 {
