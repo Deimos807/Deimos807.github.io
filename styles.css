@@ -13,7 +13,7 @@ body
 .image
 {
     margin:10px;
-    flex: 0 0 200px;
+    flex: 0 0 100px;
     max-width:100%;
     height:auto;
 }
