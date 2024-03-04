@@ -1,10 +1,11 @@
 function dispalySection(sectionID){
     const sections = document.querySelectorAll('section');
     sections.forEach(section => {
-        if (section.id === sectionID){
-            section.classList.add('active');
-        } else{
-            section.classList.remove('active');
-        }
+        section.classList.remove('active');
     });
+
+    const seleected = document.getElementById(sectionID);
+    if (seleected){
+        seleected.classList.add('active');
+    }
 }
