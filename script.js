@@ -1,4 +1,4 @@
-function dispalySection(sectionID){
+function displaySection(sectionID){
     const sections = document.querySelectorAll('section');
     sections.forEach(section => {
         section.classList.remove('active');
